@@ -15,7 +15,7 @@ Les variables climatiques étudiées incluent :
 - Vitesse du vent au 90e centile (WP90_M)
 
 ## Méthodologie
-- **Collecte des données** : Les données financières ont été obtenues via `yfinance`, tandis que les données climatiques proviennent d'un fichier Excel.
+- **Collecte des données** : Les données financières ont été obtenues via [Ycharts](https://ycharts.com/stocks), tandis que celles climatiques proviennent de [l'indice actuarielle climatique](https://actuariesclimateindex.org/home/), toutes étant stockées dans des fichiers .xlsx.
 - **Traitement des données** : Les valeurs manquantes dans les ratios financiers ont été remplies à l'aide d'une moyenne mobile basée sur les périodes t-1 et t+1. Les données climatiques mensuelles ont été agrégées en moyennes trimestrielles.
 - **Analyse** : Des modèles de régression linéaire et log-linéaire ont été utilisés pour évaluer l'impact des variables climatiques sur les ratios financiers tels que le **Cash Ratio**, le **Quick Ratio** et le **Current Ratio**.
 
